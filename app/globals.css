@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0
+  }
+
+  100% {
+    background-position: 800px 0
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+.preload {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #e6e4e4ad 8%, #f0ededc0 18%, #e4dddd9a 33%);
+  background-size: 800px 104px;
+  position: relative;
+  /* border-radius: 8px ; */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn {
+  background: rgb(185, 20, 39);
+  background: linear-gradient(100deg, rgba(185, 20, 39, 1) 0%, rgba(186, 73, 183, 1) 35%, rgba(186, 73, 183, 1) 100%);
+  padding: 2px;
+  border-radius: 13px;
+}
+
+.clip {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, rgba(253, 183, 63, 1) 26%, rgba(199, 42, 7, 1) 82%, rgba(199, 42, 7, 1) 100%);
+}
+
+.heartBreak {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, rgba(253, 183, 63, 1) 5%, rgba(199, 42, 7, 1) 43%, rgba(199, 42, 7, 1) 100%);
+}
+
+.serious {
+  background: #cc29a7;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #cc29a7 0%, rgba(169, 19, 218, 0.9836135137648809) 36%, rgba(169, 19, 218, 1) 54%);
 }
