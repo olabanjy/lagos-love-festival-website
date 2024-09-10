@@ -12,6 +12,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+export const metadata = {
+  title: "Lagos Love Carnival",
+  description: "Tired of the endless dating games andheartbreak? Lagos Love Carnival is here to turn your search for true love into an unforgettable experience! Join us for a festival designed exclusively for Lagosians looking for serious, meaningful connections.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
