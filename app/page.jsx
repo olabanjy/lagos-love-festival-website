@@ -147,15 +147,15 @@ export default function Home() {
           <div className="w-40 sm:w-96 rounded-full right-6 top-20 absolute h-40 sm:h-96 bg-[#fbd5be]"></div>
         </div>
         <div className="bg-white backdrop-blur-2xl bg-opacity-20 relative z-10">
-          <div className="max-w-7xl mx-auto sm:py-12 px-3 relative top-16 sm:top-0 space-y-7 sm:space-y-12">
+          <div className="max-w-7xl mx-auto sm:py-12 px-3 relative top-7 sm:top-0 space-y-7 sm:space-y-12">
             <div className="font-bold text-lg sm:text-3xl ">Our Gallery</div>
             <div className="grid gap-2 sm:gap-6 grid-cols-2 sm:grid-cols-3">
-              <div className="rounded-3xl preload row-span-4 h-96 bg-slate-200"></div>
-              <div className="rounded-3xl preload row-span-5 h-[500px] bg-slate-200"></div>
-              <div className="rounded-3xl preload row-span-4 h-96 bg-slate-200"></div>
-              <div className="rounded-3xl preload row-span-5 h-[500px] bg-slate-200"></div>
-              <div className="rounded-3xl preload row-span-5 h-[500px] bg-slate-200"></div>
-              <div className="rounded-3xl preload sm:row-span-4 h-[285px] sm:h-96 bg-slate-200"></div>
+              <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200"></div>
+              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200"></div>
+              <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200"></div>
+              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200"></div>
+              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200"></div>
+              <div className="rounded-3xl preload sm:row-span-4 h-[145px] sm:h-96 bg-slate-200"></div>
             </div>
           </div>
         </div>
