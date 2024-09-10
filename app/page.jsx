@@ -6,7 +6,7 @@ import lovevillage from "@asset/lovevillage.png"
 import underline from "@asset/SVG.png"
 import icon from "@asset/Vector.png"
 import heart from "@asset/heart.png"
-import { TbTicket } from "react-icons/tb";
+import logo from "@asset/image1.png"
 
 
 
@@ -21,14 +21,24 @@ export default function Home() {
   return (
     <div className="select-none">
       <div className="fixed z-50 py-5 w-screen bg-white backdrop-blur-xl bg-opacity-5">
-        <div className="bg-gray-200 rounded-lg max-w-3xl py-3 px-4 z-50 mx-auto">
-          <div className=""></div>
-          <div className="flex-grow flex">
+        <div className="bg-gray-50 bg-opacity-70 items-center flex rounded-lg max-w-3xl py-3 px-4 pr-8 z-50 mx-auto">
+          <div className="">
+            <a href="/"><Image draggable={false} src={logo} className="" alt="" /></a>
+          </div>
+          <div className="flex-grow flex justify-center">
             <div className="px-4 py-2"><a href="">About</a></div>
             <div className="px-4 py-2"><a href="">Testimonials</a></div>
             <div className="px-4 py-2"><a href="">Gallery</a></div>
           </div>
-          <div className=""></div>
+          <div className="">
+            <a href="#">
+              <div className="btn1 transition-all duration-500">
+                <div className="flex bgBtn px-4 p-3 rounded-xl gap-2 items-center justify-center">
+                  <div className="font-semibold">Get your tickets today</div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       {/* Hero Section */}
