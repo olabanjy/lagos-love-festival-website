@@ -42,8 +42,7 @@
 }
 
 .bgBtn{
-  background: rgb(185, 20, 39);
-  background: linear-gradient(100deg, #fff 0%, #fdeee1 35%, #fdeee1 100%);
+  background: linear-gradient(100deg, #fff 0%, #fffbf7 35%, #fffbf7 100%);
 }
 
 
