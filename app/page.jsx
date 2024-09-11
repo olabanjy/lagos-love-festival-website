@@ -60,7 +60,7 @@ export default function Home() {
             <div className="space-y-8 pt-40 pb-12 sm:pt-32 sm:pb-32">
               <div className="space-y-4">
                 <div className="font-bold text-2xl sm:text-4xl lg:text-7xl text-center">Lagos Love Carnival 2024</div>
-                <div className="max-w-3xl mx-auto text-center text-xs sm:text-lg lg:text-2xl">It&apos;s about to go down! Come find the love of your life at the Biggest Love Carnival happening in the City of Lagos.</div>
+                <div className="max-w-3xl mx-auto text-center text-xs sm:text-lg lg:text-2xl">It&apos;s about to go down! Come find the love of your life at the <span className="text-[#9306f9]">Biggest</span> <span className="text-[#c01701]">Love Carnival</span> happening in the City of Lagos.</div>
               </div>
               <div className="flex justify-center">
                 <a href="#">
