@@ -34,6 +34,7 @@
   padding: 2px;
   border-radius: 13px;
 }
+
 .btn1 {
   background: rgb(185, 20, 39);
   background: linear-gradient(100deg, #e0a29b 0%, #ba47bd 35%, #ba47bd 100%);
@@ -41,7 +42,7 @@
   border-radius: 13px;
 }
 
-.bgBtn{
+.bgBtn {
   background: linear-gradient(100deg, #fff 0%, #fffbf7 35%, #fffbf7 100%);
 }
 
@@ -59,7 +60,88 @@
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(90deg, rgba(253, 183, 63, 1) 5%, rgba(199, 42, 7, 1) 43%, rgba(199, 42, 7, 1) 100%);
+  background-image: linear-gradient(97.43deg, #FDB83F 5.77%, #C01700 35.28%);
+}
+
+.date {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(75.3deg, #9205FE -31.46%, #C01700 129.67%);
+}
+
+
+.location {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(280.55deg, #E73A81 47%, #9104FD 83.11%);
+}
+
+
+.event {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(264.46deg, #9205FE -1.69%, #C01700 115.92%);
+}
+
+.btnText {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(114.05deg, #E73A81 15.43%, #9104FD 25.61%);
+}
+
+
+.srolling {
+  position: relative;
+  right: 0%;
+  top: -30%;
+  animation-name: sliderAnimi;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.bgImg1{
+  background-image: url("../app/assets/cardBg.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+.bgImg2{
+  background-image: url("../app/assets/cardBg1.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+
+@keyframes sliderAnimi {
+  0% {
+    right: -30%;
+  }
+
+  20% {
+    right: 0%;
+  }
+
+  40% {
+    right: 30%;
+  }
+
+  60% {
+    right: 0%;
+  }
+
+  80% {
+    right: -30%;
+  }
+
+  100% {
+    right: 0%;
+  }
 }
 
 .serious {
