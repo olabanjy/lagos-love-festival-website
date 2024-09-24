@@ -119,15 +119,17 @@ export default function Home() {
         </div>
       </div>
       {/* find love  */}
-      <div className="max-w-7xl py-12 mx-auto px-3 space-y-6 lg:space-y-12">
-        <div className="">
-          <div className="lg:w-[376px] relative rounded-3xl mx-auto h-[200px] preload">
+      <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
+        <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
+          <div data-aos="fade-right" className="xl:w-[276px] w-full relative rounded-3xl mx-auto h-[350px] preload">
             <div className="w-12 h-12 cursor-pointer bg-white rounded-full absolute top-5 right-5 flex items-center justify-center"><Image draggable={false} src={heart} className="w-1/2" alt="" /></div>
           </div>
+          <div data-aos="fade-right" className="xl:w-[376px] w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] preload">
+          </div>
         </div>
-        <div className="flex items-center justify-center flex-col lg:flex-row lg:gap-6">
-          <div className="h-[364px] w-full lg:w-[300px] preload rounded-3xl "></div>
-          <div className="space-y-20 lg:pb-16 flex-grow">
+        <div className="flex flex-col items-center md:flex-row xl:flex-col xl:items-end justify-center lg:gap-6">
+          <div data-aos="fade-up" className="h-[200px] w-full xl:w-[300px] preload rounded-3xl "></div>
+          <div className="space-y-20 min-w-96 lg:pb-16 flex-grow">
             <div className="space-y-8">
               <div className="relative">
                 <div className="w-8 h-8 right-[48%] top-6 rounded-full bg-[#ffe2eb] absolute z-0"></div>
@@ -158,10 +160,11 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="h-[364px] w-full lg:w-[300px] preload rounded-3xl mt-14"></div>
+          <div  data-aos="fade-down" className="h-[200px] w-full xl:w-[440px] preload rounded-3xl mt-14"></div>
         </div>
-        <div className="">
-          <div className="lg:w-[376px] rounded-3xl mx-auto h-[200px] preload"></div>
+        <div className="xl:space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
+          <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:ml-auto h-[350px] preload"></div>
+          <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:mx-auto h-[350px] preload"></div>
         </div>
       </div>
       {/* more activities */}
@@ -197,14 +200,6 @@ export default function Home() {
       </div>
       {/* our gallery */}
       <div className="relative overflow-hidden">
-        {/* <div className="left-0 bottom-40 sm:bottom-72 absolute ">
-          <div className="w-40 sm:w-96 rounded-full -left-20 absolute h-40 sm:h-96 bg-[#c8b1d6]"></div>
-          <div className="w-40 sm:w-96 rounded-full left-6 top-20 absolute h-40 sm:h-96 bg-[#fbd5be]"></div>
-        </div>
-        <div className="right-0 bottom-40 sm:bottom-72 absolute ">
-          <div className="w-40 sm:w-96 rounded-full -right-20 absolute h-40 sm:h-96 bg-[#c8b1d6]"></div>
-          <div className="w-40 sm:w-96 rounded-full right-6 top-20 absolute h-40 sm:h-96 bg-[#fbd5be]"></div>
-        </div> */}
         <div className="bg-white backdrop-blur-2xl bg-opacity-20 relative z-10">
           <div className="max-w-7xl mx-auto sm:py-12 px-3 relative top-7 sm:top-0 space-y-7 sm:space-y-12">
             <div className="font-bold text-lg sm:text-3xl ">Our Gallery</div>
@@ -289,14 +284,6 @@ export default function Home() {
           </Marquee>
         </div>
       </div>
-      {/* <div className="px-3 py-12 space-y-12">
-        <div className="font-bold text-lg sm:text-3xl text-center">Our Partners</div>
-        <div className="flex gap-8 flex-wrap items-center justify-center">
-          <div className=""><Image draggable={false} src={verysingle} alt="" className="w-28 sm:w-auto" /></div>
-          <div className=""><Image draggable={false} src={eko} alt="" className="w-28 sm:w-auto" /></div>
-          <div className=""><Image draggable={false} src={lovevillage} alt="" className="w-28 sm:w-auto" /></div>
-        </div>
-      </div> */}
       <div className="bg-[#492F92]">
         <div className="grid max-w-7xl mx-auto lg:grid-cols-2 gap-8">
           <div className="relative hidden lg:block">
