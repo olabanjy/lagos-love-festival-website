@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </div>
       {/* find love  */}
-      <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
+      <div className="max-w-7xl overflow-hidden grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
           <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] gallery7">
             <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
