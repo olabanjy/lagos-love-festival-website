@@ -162,7 +162,7 @@ export default function Home() {
           </div>
           <div  data-aos="fade-down" className="h-[200px] w-full xl:w-[440px] preload rounded-3xl mt-14"></div>
         </div>
-        <div className="xl:space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
+        <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
           <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:ml-auto h-[350px] preload"></div>
           <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:mx-auto h-[350px] preload"></div>
         </div>
