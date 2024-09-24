@@ -107,16 +107,56 @@
   animation-iteration-count: infinite;
 }
 
-.bgImg1{
+.bgImg1 {
   background-image: url("../app/assets/cardBg.jpeg");
   background-position: center;
   background-size: contain;
 }
-.bgImg2{
+
+.bgImg2 {
   background-image: url("../app/assets/cardBg1.jpeg");
   background-position: center;
   background-size: contain;
 }
+
+
+
+.gallery7 {
+  background-image: url("../app/assets/gallery7.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery8 {
+  background-image: url("../app/assets/gallery8.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery9 {
+  background-image: url("../app/assets/gallery9.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery10 {
+  background-image: url("../app/assets/gallery10.jpeg");
+  background-position:  center center;
+  background-size: cover;
+}
+
+.gallery11 {
+  background-image: url("../app/assets/gallery11.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery12 {
+  background-image: url("../app/assets/gallery12.jpeg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
 
 @keyframes sliderAnimi {
   0% {

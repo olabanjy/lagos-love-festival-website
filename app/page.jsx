@@ -1,5 +1,7 @@
 "use client"
 import Image from "next/image";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa6";
 import fav from "@asset/fav.png"
 import verysingle from "@asset/verysingle.png"
 import eko from "@asset/eko.png"
@@ -34,6 +36,12 @@ import gallery3 from "@asset/gallery3.jpeg"
 import gallery4 from "@asset/gallery4.jpeg"
 import gallery5 from "@asset/gallery5.jpeg"
 import gallery6 from "@asset/gallery6.jpeg"
+import gallery7 from "@asset/gallery7.jpeg"
+import gallery8 from "@asset/gallery8.jpeg"
+import gallery9 from "@asset/gallery9.jpeg"
+import gallery10 from "@asset/gallery10.jpeg"
+import gallery11 from "@asset/gallery11.png"
+import gallery12 from "@asset/gallery12.jpeg"
 import Aos from "aos";
 
 export default function Home() {
@@ -121,17 +129,17 @@ export default function Home() {
       {/* find love  */}
       <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
-          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] preload">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] gallery7">
+            
             <div className="w-12 h-12 cursor-pointer bg-white rounded-full absolute top-5 right-5 flex items-center justify-center"><Image draggable={false} src={heart} className="w-1/2" alt="" /></div>
           </div>
-          <div data-aos="fade-right" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] preload">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-right" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] gallery8">
+            
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row xl:flex-col xl:items-end justify-center lg:gap-6">
-          <div data-aos="fade-up" className="h-[200px] overflow-hidden w-full xl:w-[300px] preload rounded-3xl ">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-up" className="h-[200px] overflow-hidden w-full xl:w-[300px] rounded-3xl gallery9">
+            
           </div>
           <div className="space-y-20 min-w-96 lg:pb-16 flex-grow">
             <div className="space-y-8">
@@ -164,16 +172,16 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div data-aos="fade-down" className="h-[200px] overflow-hidden w-full xl:w-[440px] preload rounded-3xl mt-14">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-down" className="h-[200px] overflow-hidden w-full xl:w-[440px] rounded-3xl mt-14 gallery10">
+            
           </div>
         </div>
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
-          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] preload">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] gallery11">
+            
           </div>
-          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] preload">
-            <Image src={gallery4} className="h-full w-full" />
+          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] gallery12">
+            
           </div>
         </div>
       </div>
@@ -377,7 +385,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <div className="">
+            <div className="w-full sm:w-auto">
               <a href="#">
                 <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                   <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
@@ -413,9 +421,9 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <div className="font-bold">Follow Us</div>
               <div className="flex gap-2 items-center">
-                <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center"></div>
-                <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center"></div>
-                <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center"></div>
+                <div className="w-7 h-7 text-white bg-black rounded-full flex items-center justify-center"><FaFacebook /></div>
+                <div className="w-7 h-7 text-white bg-black rounded-full flex items-center justify-center"><FaTwitter /></div>
+                <div className="w-7 h-7 text-white bg-black rounded-full flex items-center justify-center"><FaInstagram /></div>
               </div>
             </div>
           </div>
