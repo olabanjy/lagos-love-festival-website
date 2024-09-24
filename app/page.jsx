@@ -130,16 +130,31 @@ export default function Home() {
       <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
           <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] gallery7">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Speed Dating</div>
+              <div className="text-xs">
+                Spark new connections in our fun, relaxed speed dating sessions designed to bring singles together.
+              </div>
+            </div>
             <div className="w-12 h-12 cursor-pointer bg-white rounded-full absolute top-5 right-5 flex items-center justify-center"><Image draggable={false} src={heart} className="w-1/2" alt="" /></div>
           </div>
           <div data-aos="fade-right" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] gallery8">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Waterparks and Palmwine Spots</div>
+              <div className="text-xs">
+                Leisure areas for relaxation and socializing.
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row xl:flex-col xl:items-end justify-center lg:gap-6">
           <div data-aos="fade-up" className="h-[200px] overflow-hidden w-full xl:w-[300px] rounded-3xl gallery9">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Live Music & Entertainment</div>
+              <div className="text-xs">
+                Groove to the beats of top DJs, live bands, and surprise musical performances that will keep you dancing all night.
+              </div>
+            </div>
           </div>
           <div className="space-y-20 min-w-96 lg:pb-16 flex-grow">
             <div className="space-y-8">
@@ -173,15 +188,30 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="fade-down" className="h-[200px] overflow-hidden w-full xl:w-[440px] rounded-3xl mt-14 gallery10">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Cultural Showcase</div>
+              <div className="text-xs">
+                Traditional dances, fashion shows, and art exhibitions representing various Nigerian tribes.
+              </div>
+            </div>
           </div>
         </div>
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
           <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] gallery11">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Games and Activities</div>
+              <div className="text-xs">
+                Dive into interactive games, obstacle courses, waterparks, and palm wine spots that promise endless fun and excitement.
+              </div>
+            </div>
           </div>
           <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] gallery12">
-            
+            <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
+              <div className="font-semibold sm:text-xl">Food and Beverage Stalls</div>
+              <div className="text-xs">
+                Offering diverse Nigerian cuisine and drinks from different regions.
+              </div>
+            </div>
           </div>
         </div>
       </div>
