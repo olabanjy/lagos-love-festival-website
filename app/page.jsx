@@ -121,14 +121,18 @@ export default function Home() {
       {/* find love  */}
       <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
-          <div data-aos="fade-right" className="xl:w-[276px] w-full relative rounded-3xl mx-auto h-[350px] preload">
+          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] preload">
+            <Image src={gallery4} className="h-full w-full" />
             <div className="w-12 h-12 cursor-pointer bg-white rounded-full absolute top-5 right-5 flex items-center justify-center"><Image draggable={false} src={heart} className="w-1/2" alt="" /></div>
           </div>
-          <div data-aos="fade-right" className="xl:w-[376px] w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] preload">
+          <div data-aos="fade-right" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] preload">
+            <Image src={gallery4} className="h-full w-full" />
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row xl:flex-col xl:items-end justify-center lg:gap-6">
-          <div data-aos="fade-up" className="h-[200px] w-full xl:w-[300px] preload rounded-3xl "></div>
+          <div data-aos="fade-up" className="h-[200px] overflow-hidden w-full xl:w-[300px] preload rounded-3xl ">
+            <Image src={gallery4} className="h-full w-full" />
+          </div>
           <div className="space-y-20 min-w-96 lg:pb-16 flex-grow">
             <div className="space-y-8">
               <div className="relative">
@@ -160,11 +164,17 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div  data-aos="fade-down" className="h-[200px] w-full xl:w-[440px] preload rounded-3xl mt-14"></div>
+          <div data-aos="fade-down" className="h-[200px] overflow-hidden w-full xl:w-[440px] preload rounded-3xl mt-14">
+            <Image src={gallery4} className="h-full w-full" />
+          </div>
         </div>
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
-          <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:ml-auto h-[350px] preload"></div>
-          <div  data-aos="fade-left" className="xl:w-[276px] relative rounded-3xl xl:mx-auto h-[350px] preload"></div>
+          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] preload">
+            <Image src={gallery4} className="h-full w-full" />
+          </div>
+          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] preload">
+            <Image src={gallery4} className="h-full w-full" />
+          </div>
         </div>
       </div>
       {/* more activities */}
@@ -205,22 +215,22 @@ export default function Home() {
             <div className="font-bold text-lg sm:text-3xl ">Our Gallery</div>
             <div className="grid gap-2 sm:gap-6 grid-cols-2 sm:grid-cols-3">
               <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery1} className="h-full w-auto" />
+                <Image src={gallery1} className="h-full w-full" />
               </div>
               <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery2} className="h-full w-auto" />
+                <Image src={gallery2} className="h-full w-full" />
               </div>
               <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery3} className="h-full w-auto" />
+                <Image src={gallery3} className="h-full w-full" />
               </div>
               <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery4} className="h-full w-auto" />
+                <Image src={gallery4} className="h-full w-full" />
               </div>
               <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery6} className="h-full w-auto" />
+                <Image src={gallery6} className="h-full w-full" />
               </div>
               <div className="rounded-3xl preload sm:row-span-4 h-[145px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery5} className="h-full w-auto" />
+                <Image src={gallery5} className="h-full w-full" />
               </div>
             </div>
           </div>
@@ -229,12 +239,12 @@ export default function Home() {
       {/* Our Partners  */}
 
       <div className="max-w-7xl space-y-8 pt-12 mx-auto p-4">
-        <div className="flex items-center">
+        <div className="sm:flex space-y-5 sm:space-y-0 items-center">
           <div className="text-3xl flex-grow font-semibold">
             <div className="">Sponsors &</div>
             <div className="">Media <span className="event">Partners</span></div>
           </div>
-          <div className="">
+          <div className="flex">
             <a href="#">
               <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                 <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
@@ -265,7 +275,7 @@ export default function Home() {
               <Image src={eko} className="w-1/4 md:w-auto h-16" />
             </div>
           </Marquee>
-          <Marquee pauseOnHover speed={30}>
+          <Marquee pauseOnHover speed={40}>
             <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
               <Image src={spon1} className="w-1/4 md:w-auto" />
             </div>
