@@ -30,12 +30,6 @@ import spon2 from "@asset/spon2.png"
 import spon3 from "@asset/spon3.png"
 import spon4 from "@asset/spon4.png"
 import spon5 from "@asset/spon5.png"
-import gallery1 from "@asset/gallery1.jpeg"
-import gallery2 from "@asset/cardBg.jpeg"
-import gallery3 from "@asset/gallery3.jpeg"
-import gallery4 from "@asset/gallery4.jpeg"
-import gallery5 from "@asset/gallery5.jpeg"
-import gallery6 from "@asset/gallery6.jpeg"
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -249,23 +243,23 @@ export default function Home() {
           <div className="max-w-7xl mx-auto sm:py-12 px-3 relative top-7 sm:top-0 space-y-7 sm:space-y-12">
             <div className="font-bold text-lg sm:text-3xl ">Our Gallery</div>
             <div className="grid gap-2 sm:gap-6 grid-cols-2 sm:grid-cols-3">
-              <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery1} className="h-full w-full" />
+              <div className="gallery1 rounded-3xl row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
-              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery2} className="h-full w-full" />
+              <div className="gallery2 rounded-3xl row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
-              <div className="rounded-3xl preload row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery3} className="h-full w-full" />
+              <div className="gallery3 rounded-3xl row-span-4 h-[200px] sm:h-96 bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
-              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery4} className="h-full w-full" />
+              <div className="gallery4 rounded-3xl row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
-              <div className="rounded-3xl preload row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
-                <Image src={gallery6} className="h-full w-full" />
+              <div className="gallery6 rounded-3xl row-span-5 h-[250px] sm:h-[500px] bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
-              <div className="rounded-3xl preload sm:row-span-4 h-[145px] sm:h-96 bg-slate-200 overflow-hidden">
-                <Image src={gallery5} className="h-full w-full" />
+              <div className="gallery5 rounded-3xl sm:row-span-4 h-[145px] sm:h-96 bg-slate-200 overflow-hidden">
+                {/* <Image src={} className="h-full w-full" /> */}
               </div>
             </div>
           </div>

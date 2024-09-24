@@ -119,6 +119,54 @@
   background-size: contain;
 }
 
+.gallery1{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery2{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/cardBg.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery3{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery4{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery6{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery6.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery5{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery5.jpeg");
+  background-position: center;
+  background-size: cover;
+}
 
 
 .gallery7 {
