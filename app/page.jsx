@@ -36,13 +36,8 @@ import gallery3 from "@asset/gallery3.jpeg"
 import gallery4 from "@asset/gallery4.jpeg"
 import gallery5 from "@asset/gallery5.jpeg"
 import gallery6 from "@asset/gallery6.jpeg"
-import gallery7 from "@asset/gallery7.jpeg"
-import gallery8 from "@asset/gallery8.jpeg"
-import gallery9 from "@asset/gallery9.jpeg"
-import gallery10 from "@asset/gallery10.jpeg"
-import gallery11 from "@asset/gallery11.png"
-import gallery12 from "@asset/gallery12.jpeg"
-import Aos from "aos";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 export default function Home() {
   const year = new Date().getFullYear()
@@ -51,11 +46,13 @@ export default function Home() {
   const [testimony, updateTestimony] = useState([])
 
   useEffect(() => {
-    Aos.init();
+    AOS.init({
+      duration: 1000, // Duration of animations
+    });
     updateTestimony([
       {}, {}, {}
     ])
-  }, [])
+  }, []);
 
 
   return (
@@ -129,7 +126,7 @@ export default function Home() {
       {/* find love  */}
       <div className="max-w-7xl grid items-start xl:grid-cols-3 py-12 mx-auto px-5 space-y-6 lg:space-y-12">
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:top-16">
-          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] gallery7">
+          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden w-full relative rounded-3xl mx-auto h-[350px] gallery7">
             <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
               <div className="font-semibold sm:text-xl">Speed Dating</div>
               <div className="text-xs">
@@ -138,7 +135,7 @@ export default function Home() {
             </div>
             <div className="w-12 h-12 cursor-pointer bg-white rounded-full absolute top-5 right-5 flex items-center justify-center"><Image draggable={false} src={heart} className="w-1/2" alt="" /></div>
           </div>
-          <div data-aos="fade-right" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] gallery8">
+          <div data-aos="fade-left" className="xl:w-[376px] overflow-hidden w-full relative xl:left-12 rounded-3xl mx-auto h-[200px] gallery8">
             <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
               <div className="font-semibold sm:text-xl">Waterparks and Palmwine Spots</div>
               <div className="text-xs">
@@ -197,7 +194,7 @@ export default function Home() {
           </div>
         </div>
         <div className="space-y-6 z-40 md:space-y-24 md:space-x-3 grid md:grid-cols-2 xl:grid-cols-1 relative xl:-top-16">
-          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] gallery11">
+          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:ml-auto h-[350px] gallery11">
             <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
               <div className="font-semibold sm:text-xl">Games and Activities</div>
               <div className="text-xs">
@@ -205,7 +202,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] gallery12">
+          <div data-aos="fade-right" className="xl:w-[276px] overflow-hidden relative rounded-3xl xl:mx-auto h-[350px] gallery12">
             <div className="p-3 py-6 space-y-2 bg-white rounded-3xl w-full">
               <div className="font-semibold sm:text-xl">Food and Beverage Stalls</div>
               <div className="text-xs">
