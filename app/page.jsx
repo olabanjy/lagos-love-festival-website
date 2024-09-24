@@ -23,20 +23,25 @@ import octa from "@asset/pastSponsor/octa.png"
 import belaire from "@asset/pastSponsor/belaire.png"
 import leadway from "@asset/pastSponsor/leadway.png"
 import TestimonyCard from "./components/TestimonyCard";
+import spon1 from "@asset/spon1.png"
+import spon2 from "@asset/spon2.png"
+import spon3 from "@asset/spon3.png"
+import spon4 from "@asset/spon4.png"
+import spon5 from "@asset/spon5.png"
 
 export default function Home() {
   const year = new Date().getFullYear()
   const [openNav, updateSideNav] = useState(false)
 
-  const [testimony,updateTestimony] = useState([])
+  const [testimony, updateTestimony] = useState([])
 
   useEffect(() => {
     updateTestimony([
-      {},{},{}
+      {}, {}, {}
     ])
   }, [])
-  
-  
+
+
   return (
     <div className="select-none">
       <div className="fixed z-50 px-3 py-2 sm:py-5 w-screen bg-white backdrop-blur-xl bg-opacity-5">
@@ -207,6 +212,63 @@ export default function Home() {
         </div>
       </div>
       {/* Our Partners  */}
+
+      <div className="max-w-7xl space-y-6 mx-auto p-4">
+        <div className="flex items-center">
+          <div className="text-3xl flex-grow font-semibold">
+            <div className="">Sponsors &</div>
+            <div className="">Media <span className="event">Partners</span></div>
+          </div>
+          <div className="">
+            <a href="#">
+              <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
+                <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
+                  <span className="">Become a Sponsor</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="space-y-7">
+          <Marquee pauseOnHover speed={30}>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={verysingle} className="w-1/3 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={lovevillage} className="w-1/6 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={eko} className="w-1/6 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={verysingle} className="w-1/5 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={lovevillage} className="w-1/3 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={eko} className="w-1/4 md:w-auto h-16" />
+            </div>
+          </Marquee>
+          <Marquee pauseOnHover speed={30}>
+            <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
+              <Image src={spon1} className="w-1/4 md:w-auto" />
+            </div>
+            <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
+              <Image src={spon2} className="w-1/2 md:w-auto" />
+            </div>
+            <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
+              <Image src={spon3} className="w-[13.6%] md:w-auto" />
+            </div>
+            <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
+              <Image src={spon4} className="w-1/4 md:w-auto" />
+            </div>
+            <div className="rounded-full min-w-52 overflow-hidden flex justify-center mr-12 border p-3">
+              <Image src={spon5} className="w-1/3 md:w-auto" />
+            </div>
+          </Marquee>
+        </div>
+      </div>
       {/* <div className="px-3 py-12 space-y-12">
         <div className="font-bold text-lg sm:text-3xl text-center">Our Partners</div>
         <div className="flex gap-8 flex-wrap items-center justify-center">
@@ -281,7 +343,7 @@ export default function Home() {
           <div className="max-w-[96%] ml-auto">
             <Marquee pauseOnHover speed={35}>
               {
-                testimony.map((data,i)=> <TestimonyCard data={data} key={i} />)
+                testimony.map((data, i) => <TestimonyCard data={data} key={i} />)
               }
             </Marquee>
           </div>
