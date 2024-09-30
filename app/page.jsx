@@ -119,7 +119,6 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-7xl bgVid rounded-3xl overflow-hidden h-60 md:h-[696px] mx-auto">
-
             </div>
           </div>
         </div>
