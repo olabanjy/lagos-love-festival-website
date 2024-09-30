@@ -10,6 +10,9 @@ import underline from "@asset/SVG.png"
 import bus from "@asset/bus.png"
 import arrow from "@asset/arrow.png"
 import tab1 from "@asset/tab1.png"
+import irra from "@asset/irra.jpeg"
+import PeaceWay from "@asset/PeaceWay.png"
+import logoCQA1s3xX from "@asset/logoCQA1s3xX.svg"
 import tab2 from "@asset/tab2.png"
 import icon from "@asset/Vector.png"
 import heart from "@asset/heart.png"
@@ -113,7 +116,20 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="max-w-7xl rounded-3xl overflow-hidden h-60 md:h-[696px] preload mx-auto"></div>
+            <div className="max-w-7xl rounded-3xl overflow-hidden h-60 md:h-[696px] preload mx-auto">
+              {/* bannerVid */}
+              {/* <video src={require('')} autoPlay muted loop /> */}
+              <video className="h-full w-full" autoPlay loop controls preload="none">
+                <source src="./assets/bannerVid.mp4" type="video/mp4" />
+                <track
+                  src="/path/to/captions.vtt"
+                  kind="subtitles"
+                  srcLang="en"
+                  label="English"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -290,6 +306,15 @@ export default function Home() {
             </div>
             <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
               <Image src={lovevillage} className="w-1/6 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={irra} className="w-1/5 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={PeaceWay} className="w-1/3 md:w-auto h-16" />
+            </div>
+            <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
+              <Image src={logoCQA1s3xX} className="w-1/4 md:w-auto h-16" />
             </div>
             <div className="rounded-full min-w-52 flex justify-center mr-12 border p-3 overflow-hidden">
               <Image src={eko} className="w-1/6 md:w-auto h-16" />
