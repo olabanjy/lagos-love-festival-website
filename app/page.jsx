@@ -118,8 +118,8 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="max-w-7xl rounded-3xl overflow-hidden preload h-60 md:h-[696px] mx-auto">
-              <video src={vid} controls={false} autoPlay loop  className="h-full w-full" />
+            <div className="max-w-7xl bgVid rounded-3xl overflow-hidden h-60 md:h-[696px] mx-auto">
+              
             </div>
           </div>
         </div>

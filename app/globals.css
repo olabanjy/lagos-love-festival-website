@@ -107,12 +107,17 @@
   animation-iteration-count: infinite;
 }
 
+.bgVid {
+  background-image: url("../app/assets/bgVid.gif");
+  background-position: center;
+  background-size: cover;
+}
+
 .bgImg1 {
-  background-image: url("../app/assets/cardBg.jpeg");
+  background-image: url("../app/assets/cardBg1.jpeg");
   background-position: center;
   background-size: contain;
 }
-
 .bgImg2 {
   background-image: url("../app/assets/cardBg1.jpeg");
   background-position: center;
