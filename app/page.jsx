@@ -69,7 +69,7 @@ export default function Home() {
                 <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="#gallery">Gallery</a></div>
               </div>
               <div className="">
-                <a href="#">
+                <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank">
                   <div className="btn1 transition-all duration-500">
                     <div className="flex bgBtn px-4 p-3 rounded-xl gap-2 items-center justify-center">
                       <div className="font-semibold">Get your tickets today</div>
@@ -108,7 +108,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <a href="#">
+                <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank">
                   <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                     <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
                       <div className=""><Image draggable={false} src={icon} alt="" /></div>
@@ -119,7 +119,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-7xl bgVid rounded-3xl overflow-hidden h-60 md:h-[696px] mx-auto">
-              
+
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center">
-              <a href="#">
+              <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank">
                 <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                   <div className="flex bg-white px-10 p-3 rounded-xl gap-2 items-center justify-center">
                     <div className=""><Image draggable={false} src={icon} alt="" /></div>
@@ -432,7 +432,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <a href="#" className="font-semibold">Buy ticket</a>
+            <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank" className="font-semibold">Buy ticket</a>
           </div>
         </div>
         <div className="space-y-8 sm:space-y-12">
