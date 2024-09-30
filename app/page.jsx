@@ -78,7 +78,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="">
-                <a href="#">
+                <a
+                  href="https://app.ibloov.com/event/tiJ8IdeEVZd"
+                  target="_blank"
+                >
                   <div className="btn1 transition-all duration-500">
                     <div className="flex bgBtn px-4 p-3 rounded-xl gap-2 items-center justify-center">
                       <div className="font-semibold">
@@ -133,7 +136,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <a href="#">
+                <a
+                  href="https://app.ibloov.com/event/tiJ8IdeEVZd"
+                  target="_blank"
+                >
                   <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                     <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
                       <div className="">
@@ -147,6 +153,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <div className="max-w-7xl bgVid rounded-3xl overflow-hidden h-60 md:h-[696px] mx-auto"></div>
             <div className="max-w-7xl bgVid rounded-3xl overflow-hidden h-60 md:h-[696px] mx-auto"></div>
           </div>
         </div>
@@ -235,7 +242,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center">
-              <a href="#">
+              <a
+                href="https://app.ibloov.com/event/tiJ8IdeEVZd"
+                target="_blank"
+              >
                 <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                   <div className="flex bg-white px-10 p-3 rounded-xl gap-2 items-center justify-center">
                     <div className="">
@@ -566,7 +576,11 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <a href="#" className="font-semibold">
+            <a
+              href="https://app.ibloov.com/event/tiJ8IdeEVZd"
+              target="_blank"
+              className="font-semibold"
+            >
               Buy ticket
             </a>
           </div>
@@ -596,10 +610,18 @@ export default function Home() {
             </div>
           </div>
           <div className="flex text-xs sm:text-base gap-6 justify-center">
-            <div className="">About</div>
-            <div className="">Testimony</div>
-            <div className="">Gallery</div>
-            <div className="">Get your tickets</div>
+            <a href="#about">
+              <div className="">About</div>
+            </a>
+            <a href="#testimony">
+              <div className="">Testimony</div>
+            </a>
+            <a href="#gallery">
+              <div className="">Gallery</div>
+            </a>
+            <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank">
+              <div className="">Get your tickets</div>
+            </a>
           </div>
         </div>
         <div className="text-xs space-y-4 lg:space-y-0 lg:flex items-center gap-5 p-3 sm:p-6  rounded-xl lg:rounded-full border border-gray-200">
