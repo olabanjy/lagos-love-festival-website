@@ -442,10 +442,10 @@ export default function Home() {
             <div className="">let&apos;s help <span className="relative">you find <Image draggable={false} src={underline} alt="" className="absolute w-11/12 h-4 right-0" /></span></div>
           </div>
           <div className="flex text-xs sm:text-base gap-6 justify-center">
-            <div className="">About</div>
-            <div className="">Testimony</div>
-            <div className="">Gallery</div>
-            <div className="">Get your tickets</div>
+            <a href="#about"><div className="">About</div></a>
+            <a href="#testimony"><div className="">Testimony</div></a>
+            <a href="#gallery"><div className="">Gallery</div></a>
+            <a href="https://app.ibloov.com/event/tiJ8IdeEVZd" target="_blank"><div className="">Get your tickets</div></a>
           </div>
         </div>
         <div className="text-xs space-y-4 lg:space-y-0 lg:flex items-center gap-5 p-3 sm:p-6  rounded-xl lg:rounded-full border border-gray-200">
