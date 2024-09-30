@@ -1,5 +1,7 @@
 "use client"
 import Image from "next/image";
+import video from "next-video"
+import vid from "@/videos/bannerVid.mp4.json"
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import fav from "@asset/fav.png"
@@ -116,19 +118,8 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="max-w-7xl rounded-3xl overflow-hidden h-60 md:h-[696px] preload mx-auto">
-              {/* bannerVid */}
-              {/* <video src={require('')} autoPlay muted loop /> */}
-              <video className="h-full w-full" autoPlay loop controls preload="none">
-                <source src="./assets/bannerVid.mp4" type="video/mp4" />
-                <track
-                  src="/path/to/captions.vtt"
-                  kind="subtitles"
-                  srcLang="en"
-                  label="English"
-                />
-                Your browser does not support the video tag.
-              </video>
+            <div className="max-w-7xl rounded-3xl overflow-hidden preload h-60 md:h-[696px] mx-auto">
+              <video src={vid} controls={false} autoPlay loop  className="h-full w-full" />
             </div>
           </div>
         </div>
