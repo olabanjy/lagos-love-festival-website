@@ -64,9 +64,9 @@ export default function Home() {
           <div className={`${!openNav && "hidden"} fixed bg-white backdrop-blur-xl bg-opacity-5 h-screen w-screen p-5 sm:p-0 flex sm:block items-center justify-center top-0 right-0 sm:h-auto sm:w-auto sm:relative flex-grow`}>
             <div className="sm:flex space-y-4 sm:space-y-0 w-full rounded-xl p-4 sm:p-0 shadow-2xl sm:shadow-none bg-white sm:bg-transparent items-center">
               <div className="flex-grow sm:flex justify-center">
-                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="">About</a></div>
-                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="">Testimonials</a></div>
-                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="">Gallery</a></div>
+                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="#about">About</a></div>
+                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="#testimonials">Testimonials</a></div>
+                <div onClick={() => updateSideNav(false)} className="px-4 py-2"><a href="#gallery">Gallery</a></div>
               </div>
               <div className="">
                 <a href="#">
@@ -232,7 +232,7 @@ export default function Home() {
         </div>
       </div>
       {/* sub Banner */}
-      <div className="relative rounded-2xl overflow-hidden">
+      <div id="about" className="relative rounded-2xl overflow-hidden">
         <div className="w-[200px] lg:w-[500px] rounded-full left-[30%] -top-20 lg:-top-96 absolute h-[200px] lg:h-[500px] bg-[#c8b1d6]"></div>
         <div className="w-[200px] lg:w-[500px] rounded-full absolute -right-32 bottom-0 h-[200px] lg:h-[500px] bg-[#c8b1d6]"></div>
         <div className="w-[200px] lg:w-[500px] rounded-full absolute -left-32 bottom-0 h-[200px] lg:h-[500px] bg-[#fbd5be]"></div>
@@ -245,7 +245,7 @@ export default function Home() {
         </div>
       </div>
       {/* our gallery */}
-      <div className="relative overflow-hidden">
+      <div id="gallery" className="relative overflow-hidden">
         <div className="bg-white backdrop-blur-2xl bg-opacity-20 relative z-10">
           <div className="max-w-7xl mx-auto sm:py-12 px-3 relative top-7 sm:top-0 space-y-7 sm:space-y-12">
             <div className="font-bold text-lg sm:text-3xl ">Our Gallery</div>
@@ -399,7 +399,7 @@ export default function Home() {
         </div>
       </div>
       {/* Testimonials from Past Events */}
-      <div className="">
+      <div id="testimony">
         <div className="space-y-4 py-10">
           <div className="max-w-7xl mx-auto p-4 font-bold text-lg sm:text-3xl">Testimonials from Past Events</div>
           <div className="max-w-[96%] ml-auto">
