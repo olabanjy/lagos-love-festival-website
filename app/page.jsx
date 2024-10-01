@@ -61,9 +61,8 @@ export default function Home() {
             </a>
           </div>
           <div
-            className={`${
-              !openNav && "hidden"
-            } fixed bg-white backdrop-blur-xl bg-opacity-5 h-screen w-screen p-5 sm:p-0 flex sm:block items-center justify-center top-0 right-0 sm:h-auto sm:w-auto sm:relative flex-grow`}
+            className={`${!openNav && "hidden"
+              } fixed bg-white backdrop-blur-xl bg-opacity-5 h-screen w-screen p-5 sm:p-0 flex sm:block items-center justify-center top-0 right-0 sm:h-auto sm:w-auto sm:relative flex-grow`}
           >
             <div className="sm:flex space-y-4 sm:space-y-0 w-full rounded-xl p-4 sm:p-0 shadow-2xl sm:shadow-none bg-white sm:bg-transparent items-center">
               <div className="flex-grow sm:flex justify-center">
@@ -398,7 +397,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex">
-            <a href="#">
+            <a href="https://wa.me/2347067593825" target="_blank">
               <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                 <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
                   <span className="">Become a Sponsor</span>
@@ -486,7 +485,9 @@ export default function Home() {
               </div>
             </div>
             <div className="flex">
-              <a href="#">
+              <a
+                href="https://app.ibloov.com/event/tiJ8IdeEVZd"
+                target="_blank">
                 <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                   <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
                     <span className="btnText">Join waitlist</span>
@@ -565,7 +566,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <div className="w-full sm:w-auto">
-              <a href="#">
+              <a href="https://wa.me/2347067593825">
                 <div className="btn hover:scale-110 hover:shadow-lg transition-all duration-500">
                   <div className="flex bg-white px-9 p-3 rounded-xl gap-2 items-center justify-center">
                     <span className="btnText">Become a sponsor</span>
